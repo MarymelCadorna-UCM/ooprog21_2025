@@ -1,5 +1,3 @@
-package OOP_1;
-
 public class FavoriteSong {
     public static void main(String[] args) {
         System.out.println("Happiness");
