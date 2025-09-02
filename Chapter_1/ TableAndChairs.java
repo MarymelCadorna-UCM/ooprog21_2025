@@ -1,5 +1,3 @@
-package OOP_1;
-
 public class TableAndChairs {
     public static void main(String[] args) {
         String[] pattern = {
