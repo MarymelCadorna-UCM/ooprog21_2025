@@ -5,7 +5,8 @@ public class Comments {
         System.out.println("This is a single-line comment example"); 
         /* 
         * 2. Multi-line comment 
-        * This type of comment can span * multiple lines. 
+        * This type of comment can span 
+        * multiple lines. 
         */ 
         System.out.println("This is a multi-line comment example"); 
         /** 
