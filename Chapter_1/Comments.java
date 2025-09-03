@@ -1,18 +1,22 @@
-public class Comments { 
+public class Comments {
 
-    public static void main(String[] args) { 
-        // 1. Single-line comment
-        System.out.println("This is a single-line comment example"); 
-        /* 
-        * 2. Multi-line comment 
-        * This type of comment can span 
-        * multiple lines. 
-        */ 
-        System.out.println("This is a multi-line comment example"); 
-        /** 
-        * 3. Documentation comment 
-        * Used to describe classes, methods, and variables. * Can be processed by Javadoc tool to generate documentation. 
-        */ 
-        System.out.println("This is a documentation comment example");
+    public static void main(String[] args) {
+
+        // Display message to the user
+        // This single-line comment explains the purpose of the next line
+        System.out.println("Hello, this program shows the 3 different types of comments!");
+
+        /*
+         * The following is a multi-line comment.
+         * It is used for more detailed explanations or notes.
+         * This block could span several lines to describe a complex process.
+         */
+        System.out.println("Single-line, multi-line, and documentation comments.");
+
+        /**
+         * This is a documentation comment.
+         * Documentation comments are special as they are used to generate Java API documentation.
+         * In larger projects, these help developers understand code and provide details about methods and classes.
+         */
     }
 }
