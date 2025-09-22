@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class UsingOptionPaneDialogs {
+public class UsingJOptionPaneDialogs {
     public static void main(String[] args) {
         while (true) {
             String name = JOptionPane.showInputDialog(null, "What is your name?", "Input", JOptionPane.QUESTION_MESSAGE);
