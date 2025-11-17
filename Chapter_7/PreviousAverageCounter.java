@@ -1,5 +1,9 @@
 public class PreviousAverageCounter {
 
+    public static double calculateAverage(int sum, int count) {
+        return (double) sum / count;
+    }
+
     public static int countGreaterThanPreviousAverage(int[] arr) {
         int count = 0;
         int sum = 0;
@@ -7,7 +11,7 @@ public class PreviousAverageCounter {
         for (int i = 0; i < arr.length; i++) {
 
             if (i > 0) { 
-                double average = (double) sum / i;
+                double average = calculateAverage(sum, i);
 
                 if (arr[i] > average) {
                     count++;
